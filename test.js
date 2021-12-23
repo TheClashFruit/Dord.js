@@ -1,5 +1,5 @@
-const Dord   = require('./index');
-const client = new Dord.Client();
+const { Client, Intents } = require('./index');
+const client = new Client([ Intents.FLAGS.GUILDS ]);
 
 client.on('ready', () => {
   console.log('bot is ready');

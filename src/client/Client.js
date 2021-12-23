@@ -1,7 +1,9 @@
 
 
 class Client {
-  constructor() {
+  constructor(intents) {
+    this.intents = intents;
+
     this.onMessage = () => {};
     this.onReady = () => {};
   }
