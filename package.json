@@ -1,0 +1,27 @@
+{
+  "name": "dord.js",
+  "version": "1.0.0",
+  "description": "A project to simplify making bots using node.js as discord.js v13 is a pain to use.",
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "start": "echo \"This is a fukin' module!\"",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheClashFruit/Dord.js.git"
+  },
+  "author": "TheClashFruit",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TheClashFruit/Dord.js/issues"
+  },
+  "homepage": "https://github.com/TheClashFruit/Dord.js#readme",
+  "dependencies": {
+    "eslint": "^8.5.0",
+    "node-fetch": "^2.6.6",
+    "websocket": "^1.0.34",
+    "wss": "^3.3.4"
+  }
+}
