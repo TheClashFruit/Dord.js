@@ -37,7 +37,7 @@ class Client {
         }
       }));
 
-      connection.on('message', function (data, flags) {
+      connection.on('message', function (data) {
         console.log(JSON.parse(data.utf8Data));
 
         const jsonData = JSON.parse(data.utf8Data);
